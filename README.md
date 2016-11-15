@@ -5,12 +5,12 @@ To achieve bi-directional kinesthetic interaction, we have developed a wearable 
 
 We conducted a pilot study to evaluate the optimal forms of a feeding spoon for people with neuromuscular disorders by reproducing muscle tremors in healthy people. Potential scenarios include interactive rehabilitations and sports training. It is essential for both the trainers and the learners to perceive not only the physical bodily motions but also the muscle activity.
 
-![overview](extra/bioSync/overview.jpg)
+![overview](extra/images/overview.png)
 
 ## System Architecture
 This shows the system configuration of the developed device. It consists of three electrodes, discharge switches, gate switches, a stimulation circuit, an EMG measurement circuit, and a microprocessor with a Bluetooth module.
 
-![architecture](extra/images/architecture.jpg)
+![architecture](extra/images/architecture.png)
 
 ## Simultaneous Operation of EMG and EMS
 To achieve fast and simultaneous measurement and stimulation operations using common electrodes, a gate switching mechanism and a mechanism for discharging residual potential (the body retains a net charge following the stimulus) are required. The former is designed for protecting the measurement circuit from the stimulus voltage, and the latter is used for modifying connection path of the electrodes. One conventional discharging method is to short each electrode after stimulation in order to discharge the naturally existing capacitors of body. In the proposed method, a ground(0V) voltage connection following the electrode shorts is established using the discharge switch. This allows faster discharge of the residual potential, and stabilizes measurements immediately after the stimulus.
@@ -18,7 +18,7 @@ The process sequence is as follows: 1) the electrodes are connected to the input
 
 We also propose a method of EMS having dynamic adjustability of the stimulus frequency. The stimulation cycle can be adjusted from 1Hz to 100Hz, thereby enabling dynamic adaption to skin conditions. The pulse amplitude is 27V provided by a DC/DC converter from a 3.7V Li-Po battery; the duration can be adjusted from 0us to 700us. The EMG measurement circuit consists of an input protection mechanism, a voltage follower for impedance adjustment, a differential amplifier, a second-order RC low pass filter, and a microprocessor with a bluetooth module. 
 
-![config](extra/images/configuration.jpg)
+![config](extra/images/Configuration.png)
 
 ## Concrete Scenarios
 ### Sharing Embodied Experience for Product Design
@@ -31,7 +31,7 @@ Gait training with an exoskeletal robot for paraplegic patients has been widely 
 ### [New] Assisting the Hand Interactions with Tools
 bioSync is able to both measure and stimulate the user's muscle simultaneously. Using this characteristics, the device can tell the user an appropriate grasping force for a tool. When the user's grasping force is not enough, the bioSync stimulates the user's hand to induce to hold the tool tightly, by calculating the gap between measured grasping force (from EMG) and required grasping force (preprogrammed).  The user's grasping force reaches an appropriate level, the stimulus become week and the user can perceive that the grasping force is enough to use the tool through their somatosensory channel.
 
-![scenarios](extra/images/scenarios.jpg)
+![scenarios](extra/images/scenarios.png)
 
 ### Author of bioSync
 * Jun Nishida <jun.nishida@acm.org> (hardware, middleware, software, cases)

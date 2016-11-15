@@ -43,7 +43,7 @@ bioSync is able to both measure and stimulate the user's muscle simultaneously. 
 * copyright 2016 by Tim Dünte <tim.duente@hci.uni-hannover.de>
 * copyright 2016 by Max Pfeiffer <max.pfeiffer@hci.uni-hannover.de>
 
-### Other Material
+### Other Materials
 * Jun Nishida and Kenji Suzuki. 2016. bioSync: Synchronous Kinesthetic Experience among People. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '16). ACM, New York, NY, USA, 3742-3745. DOI:
 http://dx.doi.org/10.1145/2851581.2890244
 * Jun Nishida, Kenji Suzuki. 2016. bioSync: Wearable haptic I/O device for synchronous kinesthetic interaction. In Proceedings of IEEE Virtual Reality (VR), pp.243-244. DOI:
